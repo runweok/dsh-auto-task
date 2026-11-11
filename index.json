@@ -30,6 +30,18 @@
       },
       "versions": [
         {
+          "version": "1.0.1",
+          "publishTimestamp": 1794393600,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/runweok/dsh-auto-task",
+            "commit": "47f0580ac07177d42c8bc49612c3a8056c03d189"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+          }
+        },
+        {
           "version": "1.0.0",
           "publishTimestamp": 1794390508,
           "source": {
