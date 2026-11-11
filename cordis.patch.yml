@@ -1,0 +1,4 @@
+- insert:
+    - id: auto-task
+      name: 'dsh-auto-task'
+      config: {}

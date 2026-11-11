@@ -1,0 +1,47 @@
+{
+  "format": 1,
+  "title": {
+    "en": "runweok's DSH plugins",
+    "zh": "runweok 的 DSH 插件"
+  },
+  "description": {
+    "en": "Community plugins for DeepSeek Harness by runweok.",
+    "zh": "runweok 维护的 DeepSeek Harness 社区插件。"
+  },
+  "plugins": [
+    {
+      "name": "dsh-auto-task",
+      "title": {
+        "en": "Auto task builder",
+        "zh": "自动化任务构建器"
+      },
+      "description": {
+        "en": "Builds DSH scheduled tasks from plain schedule descriptions in one tool call: compiles once/daily/weekly/interval/cron rules without authoring RRULE, creates tasks in batch, edits by id, and cleans up ended tasks.",
+        "zh": "一句话自动构建 DSH 定时任务：确定性编译一次性/每天/每周/固定间隔/cron 时间规则，无需手写 RRULE；支持批量创建、按 id 编辑（含时间规则修改与暂停恢复）与一键清理已结束任务。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzRmNDZlNSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwZWE1ZTkiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHg9IjIiIHk9IjIiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcng9IjE0IiBmaWxsPSJ1cmwoI2JnKSIvPgogIDxjaXJjbGUgY3g9IjI5IiBjeT0iMjkiIHI9IjE2IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iNCIvPgogIDxwYXRoIGQ9Ik0yOSAyMHY5bDYgNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHBhdGggZD0iTTQ2IDMzbC05IDEzaDZsLTIgOSAxMS0xNGgtNmcwLTh6IiBmaWxsPSIjZmRlMDQ3IiBzdHJva2U9IiM0ZjQ2ZTUiIHN0cm9rZS13aWR0aD0iMSIvPgo8L3N2Zz4K",
+      "author": "runweok",
+      "homepage": "https://github.com/runweok/dsh-auto-task",
+      "repository": {
+        "url": "https://github.com/runweok/dsh-auto-task"
+      },
+      "metadata": {
+        "keywords": ["schedule", "scheduler", "定时任务", "自动化", "automation", "cron", "RRULE"]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1794390508,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/runweok/dsh-auto-task",
+            "commit": "<首次 push 后执行 git rev-parse HEAD，把输出的 40 位 commit 粘贴到这里再提交推送>"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+          }
+        }
+      ]
+    }
+  ]
+}

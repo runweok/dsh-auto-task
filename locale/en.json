@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Auto task builder",
+    "description": "Builds DSH scheduled tasks from plain schedule descriptions in one tool call: compiles once/daily/weekly/interval/cron rules, creates tasks in batch, and cleans up ended tasks."
+  }
+}
