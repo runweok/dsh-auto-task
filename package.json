@@ -1,13 +1,13 @@
 {
   "name": "dsh-auto-task",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Builds DSH scheduled tasks from plain schedule descriptions in one tool call: compiles once/daily/weekly/interval/cron rules, creates tasks in batch, and cleans up ended tasks.",
   "type": "module",
   "license": "MIT",
   "author": "runweok",
   "repository": {
     "type": "git",
-    "url": "https://github.com/runweok/dsh-auto-task.git"
+    "url": "git+https://github.com/runweok/dsh-auto-task.git"
   },
   "homepage": "https://github.com/runweok/dsh-auto-task#readme",
   "engines": {
@@ -18,8 +18,16 @@
     "./locale/*.json": "./locale/*.json",
     "./icon": "./icon.svg"
   },
-  "files": ["index.js", "cordis.patch.yml", "locale/*.json", "icon.svg", "README.md"],
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
   "dsh": {
-    "bundle": { "patch": "./cordis.patch.yml" }
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
   }
 }

@@ -36,7 +36,17 @@ DeepSeek Harness（DSH）Host 插件：给会话里的 AI 提供一个 `auto_tas
 - 桌面版 DSH `>=0.2.1-rc.2, <0.3.0`（`engines.dsh` 已声明，安装时自动校验）
 - 当前 preset 挂载了 `schedule` 服务（桌面 standard / cordis / ptc 预设都挂载；minimal 不挂）
 
-### 方式一：从 GitHub 直接安装（推荐）
+### 方式一：从 npm 安装（推荐）
+
+对本机 DSH 里的 AI 说（或自己在会话里让 agent 执行）：
+
+> 用 plugin_manager 的 install_bundle 安装插件，target 给 `dsh-auto-task@1.0.0`
+
+返回 `application: applied` 即生效，无需重启。验证：让 AI 调 `auto_task` 的 `{"action": "list"}`。
+
+包页面：https://www.npmjs.com/package/dsh-auto-task
+
+### 方式二：从 GitHub 直接安装
 
 对本机 DSH 里的 AI 说（或自己在会话里让 agent 执行）：
 
@@ -46,7 +56,7 @@ DeepSeek Harness（DSH）Host 插件：给会话里的 AI 提供一个 `auto_tas
 
 返回 `application: applied` 即生效，无需重启。验证：让 AI 调 `auto_task` 的 `{"action": "list"}`。
 
-### 方式二：克隆后从本地目录安装
+### 方式三：克隆后从本地目录安装
 
 ```bash
 git clone https://github.com/runweok/dsh-auto-task.git
@@ -54,7 +64,7 @@ git clone https://github.com/runweok/dsh-auto-task.git
 
 然后同样用 `install_bundle`，target 给克隆出来的目录绝对路径（**装好后目录别移动/删除**，安装是目录链接）。
 
-### 方式三：插件市场（订阅本仓库索引）
+### 方式四：插件市场（订阅本仓库索引）
 
 在 DSH 设置的插件市场索引源里添加：
 
