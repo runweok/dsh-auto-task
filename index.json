@@ -35,7 +35,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/runweok/dsh-auto-task",
-            "commit": "<首次 push 后执行 git rev-parse HEAD，把输出的 40 位 commit 粘贴到这里再提交推送>"
+            "commit": "9bfd455be60ef7481c74503336c48ef13a7617bd"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2 <0.3.0-0"
